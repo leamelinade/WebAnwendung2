@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Aufgabenplaner mit localStorage</title>
+        
+        <link type="text/css" rel="stylesheet" href="localstorage_style.css" media="all" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script type="text/javascript" src="storage.js"></script>
+    </head>
+    
+	<body>
+		<div class="hero">
+			<div class="container">
+				<h1 class="text-center display:2">Meine Aufgaben</h1>
+					<div id="box" class=" col-8 mx-auto">	
+						<ol id="todolist" contenteditable="false">
+							<h3> Noch keine ToDos vorhanden. Füge welche hinzu
+							<li>ToDo1</li>
+							<li>ToDo2</li>
+						</ol>
+					</div>
+				<div class=" col-8 mx-auto">
+					<input id="edit" type="button" class="btn btn-secondary" value="Bearbeiten" />
+					<input id="clear" type="button" class="btn btn-secondary" value="Leeren" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
